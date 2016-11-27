@@ -7,8 +7,8 @@
   "cozy-permissions":{
   	"contact": 
   	{
-  	"description": "Test Create contact.",
-  }
+  	"description": "Test Create contact."
+  },
  	"Note": 
   	{
   	"description": "Test Create Note."
