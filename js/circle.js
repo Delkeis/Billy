@@ -3,6 +3,7 @@
 /////////////////////////////////////////////////////////////////
 var total_json = {};
 var total = 0;
+var HTML = '';
 
 function add_total()
 {
@@ -55,11 +56,13 @@ var bar = new ProgressBar.Circle(container, {
     circle.path.setAttribute('stroke-width', state.width);
 
     var value = Math.round(circle.value() * budget);
-    circle.setText(value + "€");
+    circle.setText(value + "€ ");
 
   }
 });
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '3rem';
-
+HTML = budget;
+HTML = "Mon solde : " + HTML + "€";
+document.querySelector('p.solde').innerHTML = HTML;
 bar.animate(total/budget);  // Number from 0.0 to 1.0

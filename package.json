@@ -3,13 +3,13 @@
   "cozy-type": "static",
   "cozy-displayName": "Billy",
   "version": "1.0.0",
-  "description": "Manage your money."
+  "description": "Manage your money.",
   "cozy-permissions":{
-  	"contact": 
+  	"facturesedf": 
   	{
   	"description": "Test Create contact."
-  }
- 	"Note": 
+  },
+ 	"ConsumptionStatement": 
   	{
   	"description": "Test Create Note."
   }

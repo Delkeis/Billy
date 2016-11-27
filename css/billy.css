@@ -16,9 +16,14 @@ body {
 	margin-left:-65px;
 	
 }
-
-p {
+p.solde{
 	position: absolute;
+	left: 50%;
+	top:95%
+	margin-left:-75px
+	width:100px;
+	text-align:center
+	color:green;
 }
 
 @font-face {
