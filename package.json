@@ -3,7 +3,7 @@
   "cozy-type": "static",
   "cozy-displayName": "Billy",
   "version": "1.0.0",
-  "description": "Manage your money."
+  "description": "Manage your money.",
   "cozy-permissions":{
   	"contact": 
   	{
