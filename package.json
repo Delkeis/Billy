@@ -1,0 +1,18 @@
+{
+  "name": "Billy",
+  "cozy-type": "static",
+  "cozy-displayName": "Billy",
+  "version": "1.0.0",
+  "description": "Manage your money."
+  "cozy-permissions":{
+  	"contact": 
+  	{
+  	"description": "Test Create contact."
+  }
+ 	"Note": 
+  	{
+  	"description": "Test Create Note."
+  }
+
+}
+}
