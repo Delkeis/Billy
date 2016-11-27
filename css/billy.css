@@ -19,9 +19,9 @@ body {
 p.solde{
 	position: absolute;
 	left: 50%;
-	top:95%
-	margin-left:-75px
-	width:100px;
+	top:75%
+	margin-left:-110px
+	width:150px;
 	text-align:center
 	color:green;
 }
