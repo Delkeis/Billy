@@ -19,10 +19,10 @@ body {
 p.solde{
 	position: absolute;
 	left: 50%;
-	top:75%
-	margin-left:-110px
+	top:75%;
+	margin-left:-110px;
 	width:150px;
-	text-align:center
+	text-align:center;
 	color:green;
 }
 
